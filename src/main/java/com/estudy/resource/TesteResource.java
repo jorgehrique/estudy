@@ -11,7 +11,9 @@ public class TesteResource {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getTeste(){
-		return "Teste OK!";
+		String teste = "{\"nome\":\"FUV - CÁLCULO I\", \"autor\":\"James Stewart\", \"link\":\"www.google.com\"}";
+		
+		return teste;
 	}
 	
 }

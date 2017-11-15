@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Es-tudy</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/homepage.css">
+</head>
+<body>
+
+<div class="container-fluid">
+
+	<div id="LinhaHead" class="row">
+		<div class="col-md-6 offset-md-3">
+			<h1>Es-tudy</h1>
+			<h2>Biblioteca Universitária Virtual</h2>
+		</div>
+	</div>
+
+	<div id="LinhaPesquisa" class="row">
+		<div class="col-md-6 offset-md-3">
+			<div class="form-inline">
+				<div class="form-group">
+					<input type="email" class="form-control" size="50" name="pesquisa" id="pesquisa">
+					<select class="form-control" id="tipo">
+						<option value="a">Todos</option>
+						<option value="b">Livros</option>
+						<option value="c">Apostilas</option>
+						<option value="c">Video-Aulas</option>
+					</select>
+					<button id="btnPesquisar" class="form-control">Pesquisar</button>
+				</div> <!-- end form-group -->
+			</div> <!-- end form-inline -->
+		</div> <!-- end col -->
+	</div> <!-- end row -->
+	
+	<div id="LinhaDadosResultados" class="row">
+		<div class="col-md-6 offset-md-3">Resultados da pesquisa : 0</div>
+	</div>
+	
+	<div id="LinhaResultados" class="row">
+		<div class="col-md">AD</div>
+		<div class="col-md-6">
+			Nome:<span id="nome">...</span><br>
+			Autor:<span id="autor">...</span><br>
+			Link:<span id="link">...</span><br>
+		</div>
+		<div class="col-md">AD</div>
+	</div>
+	
+</div>
+<!-- Optional JavaScript -->
+	<script src="js/homepage.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+</body>
+</html>
